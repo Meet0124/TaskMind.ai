@@ -9,8 +9,10 @@ import { SquarePen, Hash, Image, Eraser, Scissors, FileText } from 'lucide-react
 import ai_gen_img_1 from "./ai_gen_img_1.png";
 import ai_gen_img_2 from "./ai_gen_img_2.png";
 import ai_gen_img_3 from "./ai_gen_img_3.png";
+import file from "./file.svg";
 
 export const assets = {
+    file,
     logo,
     gradientBackground,
     user_group,
