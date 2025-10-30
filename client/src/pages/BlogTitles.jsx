@@ -14,10 +14,10 @@ const BlogTitles = () => {
   };
 
   return (
-    // ✅ FIXED: make layout responsive (column on small screens, row on medium+)
+    //FIXED: make layout responsive (column on small screens, row on medium+)
     <div className="h-full overflow-y-scroll p-6 flex flex-col md:flex-row items-start justify-between gap-6 text-slate-700">
       {/* left column */}
-      {/* ✅ FIXED: width full on small screens, half on larger screens */}
+      {/* FIXED: width full on small screens, half on larger screens */}
       <form
         onSubmit={onSubmitHandler}
         className="w-full md:w-1/2 p-4 bg-white rounded-lg border border-gray-200"
@@ -63,8 +63,7 @@ const BlogTitles = () => {
         </button>
       </form>
 
-      {/* right column */}
-      {/* ✅ FIXED: same width setup */}
+      
       <div className="w-full md:w-1/2 p-4 bg-white rounded-lg flex flex-col border border-gray-200 min-h-96 ">
         <div className="flex items-center gap-3">
           <Hash className="w-5 h-5 text-[#8E37EB]" />
