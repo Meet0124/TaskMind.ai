@@ -10,7 +10,7 @@ import ai_gen_img_1 from "./ai_gen_img_1.png";
 import ai_gen_img_2 from "./ai_gen_img_2.png";
 import ai_gen_img_3 from "./ai_gen_img_3.png";
 import file from "./file.svg";
-
+import logo_taskmind from './logo-taskmind.svg'
 export const assets = {
     file,
     logo,
@@ -20,6 +20,7 @@ export const assets = {
     star_dull_icon,
     profile_img_1,
     arrow_icon,
+    logo_taskmind
 };
 
 export const AiToolsData = [

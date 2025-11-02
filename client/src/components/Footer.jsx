@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500/30 pb-6">
         <div className="md:max-w-96">
           <img
-            src={assets.file} // <-- replace this with your image path or URL
+            src={assets.logo_taskmind} 
             alt="company logo"
             className="h-9"
           />
